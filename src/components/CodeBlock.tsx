@@ -7,8 +7,6 @@ type codeBlocksProps = {
 }
 
 export function CodeBlock({ code, language }: codeBlocksProps){
-  const lines = code.split('\n');
-
   return (
     <div className="w-full max-w-3xl] rounded-lg font-mono text-sm">
       <SyntaxHighlighter
