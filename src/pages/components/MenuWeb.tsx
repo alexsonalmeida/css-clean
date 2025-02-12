@@ -23,7 +23,7 @@ export function MenuWeb({ className }: MenuWebProps) {
                                             <li key={childIndex}>
                                                 <NavigationMenuLink asChild>
                                                     <a 
-                                                        href={`/articles/${item.paths[childIndex]}`}
+                                                        href={`${item.paths[childIndex]}`}
                                                         className="text-gray-700 hover:text-slate-500 font-regular text-sm transition-colors"
                                                     >
                                                         {child}
