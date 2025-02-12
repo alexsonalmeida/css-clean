@@ -16,7 +16,7 @@ function App() {
           <Route element={<MainLayout/>}>
           <Route path="/introduction" element={<Introduction/>}/>
           <Route path="/about-the-project" element={<AboutTheProject/>}/>
-          <Route path="/how-to-contribute" element={<HowToContribute/>}/>
+          <Route path="/how-to-collaborate" element={<HowToContribute/>}/>
           <Route path="/code-smells" element={<CodeSmells/>}/>
           <Route path="/good-practices" element={<GoodPracticesPage/>}/>
           <Route path="/box-shadows-components" element={<BoxShadowComponents/>}/>
