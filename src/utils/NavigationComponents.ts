@@ -2,17 +2,17 @@ export const menuItems = [
     {
         title: "Getting Started",
         children: ["Introduction", "About the project", "How to collaborate"],
-        paths: ["introduction","about-the-project", "how-to-collaborate"],
+        paths: ["/introduction","/about-the-project", "/how-to-collaborate"],
         
     },
     {
         title: "Components",
-        children: null,
-        paths: null
+        children: ["Box-shadows", "Button"],
+        paths: ["/components/box-shadows", "/components/button"]
     },
     {
         title: "Articles",
-        children: ["Tutorials", "Good Practices", "Common Errors"],
-        paths: ["tutorials", "good-practices", "common-errors"],
+        children: ["Good Practices", "Code Smells"],
+        paths: ["/good-practices", "/code-smells"],
     },
 ];
