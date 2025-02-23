@@ -20,8 +20,8 @@ function App() {
           <Route path="/how-to-collaborate" element={<HowToContribute/>}/>
           <Route path="/code-smells" element={<CodeSmells/>}/>
           <Route path="/good-practices" element={<GoodPracticesPage/>}/>
-          <Route path="/box-shadows-components" element={<BoxShadowComponents/>}/>
-          <Route path="/button-components" element={<ButtonComponents/>}/>
+          <Route path="/components/box-shadows" element={<BoxShadowComponents/>}/>
+          <Route path="/components/button" element={<ButtonComponents/>}/>
         </Route>
       </Routes>
     </Router>
