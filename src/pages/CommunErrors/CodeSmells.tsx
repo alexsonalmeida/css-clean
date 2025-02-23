@@ -108,6 +108,7 @@ export function CodeSmells() {
                             <span className="block h-3 w-3 rounded-full bg-red-400"></span>
                             <span className="block h-3 w-3 rounded-full bg-yellow-400"></span>
                             <span className="block h-3 w-3 rounded-full bg-green-400"></span>
+                            
                         </div>
                         <CodeBlock code={tooEspecificSelector1Code} language="css" />
                     </div>
