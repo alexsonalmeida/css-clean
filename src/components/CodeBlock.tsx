@@ -8,7 +8,7 @@ type codeBlocksProps = {
 
 export function CodeBlock({ code, language }: codeBlocksProps){
   return (
-    <div className="w-full max-w-3xl] rounded-lg font-mono text-sm">
+    <div className="w-full rounded-lg font-mono text-sm">
       <SyntaxHighlighter
         language={language}
         style={github}

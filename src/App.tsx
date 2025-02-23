@@ -7,6 +7,7 @@ import { BoxShadowComponents } from "./pages/ComponentsPages/BoxShadow";
 import { Introduction } from "./pages/GettingStarted/Introduction";
 import { AboutTheProject } from "./pages/GettingStarted/AboutTheProject";
 import { HowToContribute } from "./pages/GettingStarted/HowToContribute";
+import { ButtonComponents } from "./pages/ComponentsPages/Button";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/code-smells" element={<CodeSmells/>}/>
           <Route path="/good-practices" element={<GoodPracticesPage/>}/>
           <Route path="/box-shadows-components" element={<BoxShadowComponents/>}/>
+          <Route path="/button-components" element={<ButtonComponents/>}/>
         </Route>
       </Routes>
     </Router>
